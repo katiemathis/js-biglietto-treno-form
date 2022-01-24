@@ -44,3 +44,12 @@ h1 {
     margin-right: 5px;
 }
 
+button {
+    min-height: 20px;
+    min-width: 70px;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
