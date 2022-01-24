@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #a9003f;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+
+#container-top {
+    min-height: 300px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    max-width: 80%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-5 {
+    margin-right: 5px;
+}
+
