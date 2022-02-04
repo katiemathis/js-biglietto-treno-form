@@ -87,11 +87,12 @@ annulla.addEventListener('click', function () {
     document.querySelector('#biglietto-title').classList.add('hidden');
     nome.value = '';
     km.value = 0;
-    age.value = '';
+    Array.from(document.querySelector("#age").options).forEach(function(/*option_element*/) {
+        return age.value = '';
+    //age.value = '';
+    });
 
-
-
-})
+});
 
 
 
