@@ -71,6 +71,7 @@ genera.addEventListener('click', function () {
         console.log('Your biglietto costs:  $' + (prezzo * 0.6).toFixed(2));
     } else {
         nomeBiglietto.innerHTML = 'Your name is: ' + nome.value;
+        etaBiglietto.innerHTML = 'You do not qualify for any discounts';
         kmBiglietto.innerHTML = 'You want to travel ' + km.value + ' km';
         prezzoBiglietto.innerHTML = 'Your biglietto costs:  $' + prezzo;
         console.log('Your name is: ' + nome.value);
