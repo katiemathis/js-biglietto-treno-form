@@ -15,7 +15,7 @@ h1 {
     margin: 10px;
 }
 
-#container-top {
+.container {
     min-height: 300px;
     width: 80%;
     background-color: white;
@@ -26,6 +26,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.reset {
+    display: none;
 }
 
 .flex {
